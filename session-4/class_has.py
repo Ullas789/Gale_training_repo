@@ -5,7 +5,6 @@ def hasmap(dic,size):
         # print(f"{key}: {value}")
         h=key%size
         # print(h)
-        # print(h)
         h_v[h].append(value)
     print(f"dic{dic}")
     print(f"hash:{h_v}")
